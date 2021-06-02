@@ -1,0 +1,69 @@
+*{margin: 0 auto; padding: 0;color:inherit;text-decoration: none;list-style: none;}
+a, button, i{cursor: pointer;outline: 0;border: 0;}
+html,body{background-color:slateblue;}
+#section1{ width: 100%;}
+.wrap{
+    color: #fff; margin-top: 30px;
+    width: 1000px;
+    display: flex; justify-content: space-between;
+    border: 1px solid #fff;
+}
+.fstBox{
+    margin-left: 10px;
+    width: 25%; 
+    border: 1px solid dodgerblue;
+}
+.fstBox i:hover{color: dodgerblue;}
+.title{
+    display: flex; 
+    border: 1px solid salmon;
+}
+#section1 i{margin:5px;}
+#section1 h4{
+    margin: 5px;
+    font-size: 15px;
+}
+#section1 p{ font-size: 15px;}
+.fstBox .item{
+    width: 80%; height:100px;
+    background: coral;
+    margin: 10px;
+}
+.itemTxt{margin-left: 5px;}
+
+.secBox{
+    width: 40%;
+    border: 1px solid salmon;
+    overflow: hidden;
+}
+.secBox i{font-size: 1.2em;}
+.secBox i:hover{color: crimson;}
+.track{
+    position: relative;
+    width: 100%; 
+    
+}
+.track div{
+    position: absolute;
+    width:100%;height: 200px;
+    left:400px
+}
+.track .item1{background-color: dodgerblue;}
+.track .item2{background-color: salmon;}
+.track .item3{background-color: deeppink;}
+.track .item4{background-color: crimson;}
+
+#section2{}
+
+
+
+@media(max-width:768px){
+    #section1{
+        margin: 10px auto;
+        width: 750px;
+    }
+    .wrap{
+        display: contents;
+        width: 700px;
+    }
+}
