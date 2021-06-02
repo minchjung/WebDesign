@@ -1,0 +1,61 @@
+a{color: inherit; cursor: pointer;}
+body{
+    padding: 10px;color: inherit;
+}
+.gap{
+    margin: 50px;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background: cornflowerblue;
+}
+.navbar-brand{
+    color: aliceblue;
+}
+.navbar-text{color: aliceblue;}
+.about{
+    text-align: center;
+}
+.background{
+    color: #fff;
+    text-align: center;
+    padding: 10px;;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100px;
+    background: linear-gradient(90deg,dodgerblue,coral,slateblue)
+}
+.product span{
+    padding: 20px;
+    font-size: 5.0em;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(60, 60, 131);
+}
+.p2 h2{
+    padding: 20px;
+}
+.gap2{
+    margin-top:20px;
+}
+.qr{color: dodgerblue;}
+.thr{color: slateblue;}
+.apple{color:crimson ;}
+.signal{color:darkcyan ;}
+.barcode{color:darkgreen ;}
+.hdd{color:darkslategray}
+.tech{
+
+    text-align: center;
+    color: #000;
+}
+.partner{
+    background: url(polyimg/back.webp) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: aliceblue;
+}
