@@ -2,10 +2,10 @@
 a{cursor: pointer;text-decoration: none;color: inherit;}
 html,body{ background-color: rgb(37,37,37);
 }
-header{
+header{ 
     width: 100%;background-color: rgb(37,37,37);
 }
-.logo{
+.logo{ /* header에 logo만 주고 logo=div width height 설정되면 => margin: 0 auto 센터  */
     width: 100px;height: 120px;
 }
 .logo img{
@@ -15,27 +15,27 @@ nav{
     width: 100%;
     background-color: rgb(37,37,37);
 }
-.menu{
+.menu{ /*ul로 w,h 주고 가둔다 */
     width: 600px;height: 40px;
 }
-.menu li {
+.menu li { /* li 5개 width주고, height 부모 100%  */
     width: 120px;height: 40px;
     color: #fff;  text-align: center;line-height: 40px;
     float: left;
-
+    /* 5개=600 딱 맞게해 float left로 block을 가로로 딱 떨어지게 설정  */
     position: relative;
 }
 .menu li:hover{
     background-color: salmon;
 }
-.menu li .submenu{
+.menu li .submenu{ /* li 안에 submenu*/
     width: 120px;
     background-color: rgb(37,37,37);
     display: none;
-    z-index: 99;
-    position: absolute;
+    z-index: 99; /*z-index 먹여서 슬라이드 down시 main위로 설정*/
+    position: absolute; /*abs 먹이고 z-index */
 }
-.submenu li{
+.submenu li{ /*sub안에 li 목록*/
     width: 120px; height: 40px;
     text-align: center; line-height: 40px;
 }
@@ -48,29 +48,3 @@ main{
 main .dig:hover{
     color: coral;
 } 
-
-
-/* section{
-    width: 100%;height: 100%;
-    background-color: rgb(37,37,37);
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    position: absolute;
-}
-.imgs{
-    width: 100%; min-height: 400px;
-    left: 50%; margin-top: 20px;
-    transform:translateX(-50%);
-    border:1px solid rgb(160, 14, 14);
-
-    position: relative; 
-}
-.item{
-    width: 600px; height: 400px; 
-    left: 50%; transform: translateX(-50%);
-    position: absolute;
-}
-.item img{
-    width: 100%; height: 100%;
-} */
