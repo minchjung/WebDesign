@@ -1,0 +1,56 @@
+/* body{padding-top: 90px;} */
+.container{padding: 0;margin: 0 auto;}
+.container-fluid{padding: 0;margin: 0 auto;}
+.navbar{
+    height: 90px;
+    background-color: #fff;
+    font-size: 1.2em;
+    border: 0;
+    border-bottom: 1px solid #aaa;
+}
+.navbar-toggle{margin-top: 45px;}
+
+.carousel{
+    padding-top: 90px;
+}
+.iconTxt h4{color: #18709c;font-weight: bold;}
+
+.icons{
+    padding: 20px;
+    margin-right: 15px; 
+    text-align: center;
+    font-size: 30px;    background-color: orange;
+    border-radius: 50%; border: 5px solid orange;
+    transform: all 0.4s;
+    cursor: pointer;
+
+    float: left;
+}
+.icons:hover{
+    background-color: #18709c;
+}
+header{
+    color: #fff;
+    text-align: center;
+}
+
+header small{
+    color: #fff;
+}
+header p {
+    color: #c0c0c0;
+}
+.content1{
+    background: url("imgs/slide1_bg.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+.book1,.book2, .book3{float:left;}
+.book2,.book3{margin-left:-100px ;}
+footer{
+    padding: 2px 0;
+    color: #fff;
+    text-align: center; 
+    background-color: #18709c;
+}
+#about, #portfolio, #contact{padding-top: 85px;}
