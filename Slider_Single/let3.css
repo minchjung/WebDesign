@@ -1,0 +1,33 @@
+
+*{margin:0 auto; text-decoration: none;}
+body{width: 100%;background-color: rgb(0, 0, 0);}
+.wrap{
+    width: 400px;height: 200px;
+    position: relative;
+    margin-top: 150px;
+    overflow: hidden;
+}
+.track{
+    width: 800px;
+    position: relative;
+}
+.track div{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    color:#fff;
+    font-size: 4.5em;
+    position: absolute;
+    left: 400px;
+}
+.box1{background-color: rgb(83, 49, 6);left:0}
+.box2{background-color: coral;}
+.box3{background-color: crimson;}
+.box4{background-color: lawngreen;}
+.box5{background-color: palevioletred;}
+.box6{background-color: rebeccapurple}
+.box7{background-color: salmon}
+.box8{background-color: aqua;}
+.box9{background-color: khaki}
+.box10{background-color: darkblue;}
