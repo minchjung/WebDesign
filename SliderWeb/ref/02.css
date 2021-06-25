@@ -1,0 +1,66 @@
+*{margin: 0 auto;padding: 0;list-style: none;font-family: "맑은 고딕";}
+a{color: inherit;text-decoration: none;cursor: pointer;}
+
+header{
+    width: 100%;
+    background-color: rgb(37,37,37);
+
+    position: relative;
+}
+.wrap{
+    width: 1000px;height: 110px;
+    display: flex;justify-content: space-between;
+    position: relative;
+}
+.wrap .logo{
+    width: 100px;height: 110px;
+    top: 0;left: 10%;
+    position: absolute;
+}
+.wrap .logo img{
+    width: 100%;height: 100%;
+    cursor: pointer;
+}
+.wrap .btnbox{
+    top: 15px; right: 20px;
+    position: absolute;
+}
+.wrap .btnbox button{
+    padding: 5px; margin: 0 5px;
+    background-color: rgba(77, 75, 75,0.9); color: #fff;
+    cursor: pointer;
+}
+.btnbox button:hover{
+    background-color: coral;
+}
+.wrap .menu{
+    display: flex;
+    top: 0; right: 10px;
+    margin-top: 60px;
+    position: absolute;
+}
+.menu li{
+    width: 120px;height: 50px;
+    color: #fff; text-align: center; line-height: 50px;
+    transition: all 0.2s;
+
+    position: relative;
+}
+.menu li:hover{
+    background-color: coral;
+}
+.wrap .menu .submenu{
+    width: 120px;
+    background-color: rgb(37,37,37);
+
+    position: absolute;  z-index: 1;
+    display: none;    
+}
+.submenu li{
+    width:120px; height: 50px;
+    color: #fff; text-align: center; line-height: 50px;
+}
+.submenu li:hover{
+    background-color: coral;
+    transition: all 0.2s;
+}

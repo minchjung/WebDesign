@@ -1,0 +1,130 @@
+*{margin: 0 auto; padding: 0;list-style: none;text-decoration: none;color: inherit;}
+button{border: 0;background-color: transparent;cursor: pointer;}
+a{cursor: pointer;}
+
+header{
+    height: 100px;
+    background-color: #000;
+    color: aliceblue;
+}
+.wrap{
+    width: 1000px; height: 100px;
+    position: relative;
+}
+.logo{
+    height: 95px; 
+    position: absolute;
+}
+.logo img{height: 100%;}
+
+.btnBox{
+    height: 40px;
+    position: absolute;
+    top: 15px; right: 30px;
+    text-align: center;
+}
+header button{
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 2px;
+    background-color:rgba(255,255,255,0.5);
+}
+header button:hover{
+    background-color: rgba(255, 127, 80, 0.9);
+    color: #fff;
+}
+nav{
+    width: 600px;  height: 40px;
+    display: flex; justify-content: space-between;
+    position: absolute;
+    bottom: 0;right: 0;
+}
+nav li{
+    width: 100px; line-height: 40px;
+    text-align: center;
+}
+nav li:hover{background-color:coral;}
+
+nav .submenu{display: none;}
+
+#slide{
+    width: 100%; height: 100vh;
+    padding-top: 100px;
+    background-color: #242424;
+}   
+.track{
+    width: 1000px;    height: 175px;
+    overflow: hidden;
+}
+.track div{
+    width: 125px;height: 175px;
+    text-align: center;line-height: 175px;
+    color: #000;
+    font-size: 20px;
+    margin: 0 5px;
+    float: left;
+}
+.box1{background-color: coral;}
+.box2{background-color: aqua;}
+.box3{background-color: dodgerblue;}
+.box4{background-color: slateblue;}
+.box5{background-color: palegreen;}
+.box6{background-color: wheat;}
+.box7{background-color: palevioletred;}
+.box8{background-color: lawngreen;}
+
+.button{
+    width: 50px;
+    margin: 25px auto;
+    font-size: 35px;
+    cursor: pointer;
+}
+.button div{display: none;}
+.button div.on{display: block;}
+.button div{
+    color: #fff;
+    transition: all 0.4s;
+}
+.button div:hover{color: crimson;}
+
+#modal{
+    height: 100vh; width: 100%;
+    background-color: rgba(0,0,0,0.4);
+
+    top: 0; left: 0;
+    position: fixed;
+    z-index: 1; 
+    display: none;
+
+}
+.modalTrack{
+    width: 350px; height: 450px;
+
+    top: 25%; transform: translateY(-25%);
+    position: relative;
+  
+    overflow: hidden; 
+    /* overflow hidden주면 jquery에서 siblings fadeOut 줄필요가 없음 */
+    /* track 아래 포지션 absolute 필요도 없음*/
+    /* 정정 overflow 줘도 sibilings fadeOut해줘야함- absolute줘야 버튼 아래 넣을수있음*/
+}
+.modalTrack div{
+    width: 350px; height: 450px;
+    text-align: center; line-height: 350px;
+    font-size: 2.0em;
+    position: absolute;
+}
+#modal .btn{
+    margin-top:100px; 
+    /*modalTrack과 동등 형제관계라 포지션 잡고있는 트랙과 반해 */
+   /*  포지션 없는 상태 => margin 0 auto로 가운데 들어가있음 => 마진탑으로 끌어내림*/
+    width: 20px;height: 20px;
+    padding: 5px;
+ 
+    text-align: center; line-height: 20px;
+    font-size: 1.5em;  color: #000;
+    background-color: rgba(255,255,255,0.8);
+
+    border-radius: 5px;
+    cursor: pointer;
+}
