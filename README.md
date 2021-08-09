@@ -8,4 +8,4 @@
 [4. **Scroll Reactive**](https://github.com/minchjung/Web4)  
 ## JS Study 
 [DOM](https://github.com/minchjung/WebDesign/wiki/DOM)  
-[reduce](https://github.com/minchjung/WebDesign/wiki/reduce)  
+[Reduce](https://github.com/minchjung/WebDesign/wiki/reduce)  
